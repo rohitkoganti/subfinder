@@ -21,5 +21,5 @@ This is the script needed to run the py2exe tool, which converts our python code
 - Threading is done with QThreads so that the UI does not hang when it is fetching a subtitle.
 
 # Note:
-- The executable is to be built with the command 'python setup.py py2exe' in the command prompt.
+- The executable can be built with 'python setup.py py2exe', assuming python 2.7 (with PyQt) and py2exe are installed.
 - The errors, if any, are not flushed out and would printed into a log file. This is for testing purposes. You can choose to 'uncomment' it in the SubFinder.py to ignore the errors. If you find some bugs/discrepancies, ping me at koganti.rohit@gmail.com
