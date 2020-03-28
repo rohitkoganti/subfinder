@@ -73,7 +73,7 @@ class MyApp(QtGui.QMainWindow, design.Ui_MainWindow):
         elif error is 1:
             QtGui.QMessageBox.information(self, "Error", "Check internet connection!")
         elif error is 2:
-            QtGui.QMessageBox.information(self, "Error", "No matches for any title. Spell check!")
+            QtGui.QMessageBox.information(self, "Error", "No matches for for the title. Spell check!")
         elif error is 3:
             QtGui.QMessageBox.information(self, "Error", "Could not find any(more)!")
 
